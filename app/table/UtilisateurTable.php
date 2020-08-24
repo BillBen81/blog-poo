@@ -7,7 +7,7 @@
  */
 
 class UtilisateurTable extends Connexion{
-    public function getAllUser(){
+    public function findAll(){
         $query = $this->getPdo();
 
         $statement = $query->query("SELECT * FROM utilisateur");

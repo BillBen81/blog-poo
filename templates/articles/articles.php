@@ -13,9 +13,9 @@
             <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Code</th>
+                <th scope="col">Libellé</th>
+                <th scope="col">Prix</th>
                 <th scope="col">Action</th>
             </tr>
             </thead>

@@ -30,12 +30,11 @@
 
             <div class="col-md-2">
                 <ul>
-                    <li><a href="" class="">Article</a></li>
-                    <li><a href="" class="">Utilisateur</a></li>
+                    <li><a href="index.php?page=articles" class="">Article</a></li>
+                    <li><a href="index.php?page=utilisateur" class="">Utilisateur</a></li>
                 </ul>
             </div>
             <div class="col-md-10">
-
                 <?= $content ?>
             </div>
         </div>

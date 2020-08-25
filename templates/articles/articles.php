@@ -30,7 +30,7 @@
 
                         <a href="" class="btn btn-secondary">Voir</a>
                         <a href="" class="btn btn-danger">Delete</a>
-                        <a href="" class="btn btn-warning">Edit</a>
+                        <a href="index.php?page=editArticles&id=<?= $item['art_no'] ?>" class="btn btn-warning">Edit</a>
 
                     </th>
                 </tr>

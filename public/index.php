@@ -10,6 +10,9 @@
 		require "../templates/accueil/home.php";
 	elseif ($page === "articles") :
 		require "../templates/articles/articles.php";
+	elseif ($page === "editArticles") :
+		$artId = $_GET["id"];
+		require "../templates/articles/editArticle.php";
 	elseif ($page === "utilisateur") :
 		require "../templates/utilisateur/utilisateur.php";
 	endif;

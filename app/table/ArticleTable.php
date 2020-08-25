@@ -18,4 +18,11 @@ class ArticleTable extends Connexion {
 
     }
 
+    public function findById($_id){
+        $query = $this->getPdo();
+
+        $statement = $query->query("SELECT * FROM articles WHERE art_no = $_id");
+        return $statement->fetch();
+    }
+
 }

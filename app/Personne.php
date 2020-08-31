@@ -1,42 +1,45 @@
 <?php 
 
 	//nommage variable : camelCase ou snake_case
-	class Personne
-	{
-		private $nom;
-		private $prenom;
-		private $adresse;
 
-		public function getNom()
-		{
-			return $this->nom;
-		}
+namespace App;
 
-		public function setNom($nom)
-		{
-			$this->nom = $nom;
-		}
+class Personne
+{
+    private $nom;
+    private $prenom;
+    private $adresse;
 
-		public function getPrenom()
-		{
-			return $this->prenom;
-		}
+    public function getNom()
+    {
+        return $this->nom;
+    }
 
-		public function setPrenom($prenom)
-		{
-			$this->prenom = $prenom;
-		}
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
 
-		public function getAdress()
-		{
-			return $this->adresse;
-		}
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
 
-		public function setAdress($adress)
-		{
-			$this->adresse = $adress;
-		}
-	}
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
+    public function getAdress()
+    {
+        return $this->adresse;
+    }
+
+    public function setAdress($adress)
+    {
+        $this->adresse = $adress;
+    }
+}
 
 
  ?>

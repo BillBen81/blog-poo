@@ -1,5 +1,5 @@
 <?php
-    require "../app/table/UtilisateurTable.php";
+    //require "../app/table/UtilisateurTable.php";
     $user = new UtilisateurTable("localhost","db_devinbox", "root", "");
 
     $listUser = $user->findAll();
@@ -24,10 +24,10 @@
             <tbody>
             <?php foreach ($listUser as $user): ?>
                 <tr>
-                    <th scope="row"><?= $user['usr_id']?></th>
-                    <th scope="row"><?= $user['usr_name']?></th>
-                    <th scope="row"><?= $user['usr_lastname']?></th>
-                    <th scope="row"><?= $user['usr_adress']?></th>
+                    <th scope="row"><?= $user['user_no']?></th>
+                    <th scope="row"><?= $user['user_nom']?></th>
+                    <th scope="row"><?= $user['user_prenom']?></th>
+                    <th scope="row"><?= $user['user_adresse']?></th>
                     <th scope="row">
 
                         <a href="" class="btn btn-secondary">Voir</a>

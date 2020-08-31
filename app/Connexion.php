@@ -6,6 +6,8 @@
  * Time: 9:26 AM
  */
 
+namespace App;
+
 class Connexion
 {
     private $servername;
@@ -21,7 +23,7 @@ class Connexion
            $this->bdd = $_bddName;
            $this->username = $_userName;
            $this->servername = $_serverName;
-           $this->pdo = new PDO("mysql:host=$this->servername;dbname=$this->bdd", $this->username, $this->password);
+           $this->pdo = new \PDO("mysql:host=$this->servername;dbname=$this->bdd", $this->username, $this->password);
        }catch (PDOException $e){
            echo "Erreur : " . $e->getMessage();die;
        }

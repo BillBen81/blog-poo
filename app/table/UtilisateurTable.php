@@ -6,6 +6,8 @@
  * Time: 11:15 AM
  */
 
+namespace App\Table;
+
 class UtilisateurTable extends Connexion{
     public function findAll(){
         $query = $this->getPdo();

@@ -6,6 +6,9 @@
  * Time: 10:44 AM
  */
 
+namespace App\Table;
+
+use App\Connexion;
 
 class ArticleTable extends Connexion {
 

@@ -5,7 +5,7 @@
  * Date: 25/08/2020
  * Time: 10:44
  */
-    require "../app/table/ArticleTable.php";
+    //require "../app/table/ArticleTable.php";
 
     $oArticle = new ArticleTable("localhost","db_devinbox", "root", "");
     $article = $oArticle->findById($artId);

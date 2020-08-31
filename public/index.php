@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	//include_once "../app/Connexion.php";
 
@@ -10,9 +10,8 @@
 		require '../app/Autoloader.php';
 
 
-
 		Autoloader::register();
-		$con = new \App\Connexion("localhost","db_devinbox", "root", "");
+		// $con = new \App\Connexion("localhost","db_devinbox", "root", "");
 		//$oArtcle = new \App\Connexion("localhost","db_devinbox", "root", "");
 		//$oArticle = new \App\Table\ArticleTable();
 		//$oTest = new \App\Table\TEST();
@@ -45,4 +44,3 @@
 
 
  ?>
-

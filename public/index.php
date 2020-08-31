@@ -9,16 +9,8 @@
 
 		require '../app/Autoloader.php';
 
-
 		Autoloader::register();
-		// $con = new \App\Connexion("localhost","db_devinbox", "root", "");
-		//$oArtcle = new \App\Connexion("localhost","db_devinbox", "root", "");
-		//$oArticle = new \App\Table\ArticleTable();
-		//$oTest = new \App\Table\TEST();
 
-		//die;
-
-		//var_dump($oArtcle); die;
 		ob_start();
 		if ($page === "home") :
 			require "../templates/accueil/home.php";

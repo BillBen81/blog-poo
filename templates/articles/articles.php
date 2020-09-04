@@ -1,10 +1,11 @@
 
 <?php
     //require '../app/table/ArticleTable.php';
+    use App\Table\ArticleTable;
 
     $articles = new ArticleTable("localhost","db_devinbox", "root", "");
 
-    var_dump($articles); die;
+    var_dump($articles); //die;
 
     $list = $articles->findAll();
 ?>

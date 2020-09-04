@@ -7,6 +7,7 @@
  */
 
 namespace App\Table;
+use App\Connexion;
 
 class UtilisateurTable extends Connexion{
     public function findAll(){

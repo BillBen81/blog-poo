@@ -1,5 +1,7 @@
 <?php
     //require "../app/table/UtilisateurTable.php";
+    use App\Table\UtilisateurTable;
+
     $user = new UtilisateurTable("localhost","db_devinbox", "root", "");
 
     $listUser = $user->findAll();

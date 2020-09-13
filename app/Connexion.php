@@ -24,7 +24,7 @@ class Connexion
            $this->username = $_userName;
            $this->servername = $_serverName;
            $this->pdo = new \PDO("mysql:host=$this->servername;dbname=$this->bdd", $this->username, $this->password);
-       }catch (PDOException $e){
+       }catch (\PDOException $e){
            echo "Erreur : " . $e->getMessage();die;
        }
 

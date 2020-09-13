@@ -21,9 +21,10 @@ class Autoloader
         $dir = strtolower(implode($classes,"/"));
 
 
-        var_dump("Dir : $dir.");
-        var_dump("Classe : $classe.");
-        var_dump("Lien : ../$dir/$classe." );
+       // var_dump("Dir : $dir.");
+       // var_dump("Classe : $classe.");
+       // var_dump("Lien : ../$dir/$classe." );
+
 
         if (!file_exists($files.".php")) {
             echo "salut : $files.php";

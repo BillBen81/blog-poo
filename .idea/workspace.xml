@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13200d9f-f167-45eb-8162-6671052a42c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Paginator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Paginator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="217">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -79,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="289">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,7 +126,6 @@
         <option value="$PROJECT_DIR$/templates/content.php" />
         <option value="$PROJECT_DIR$/templates/accueil/home.php" />
         <option value="$PROJECT_DIR$/templates/header.php" />
-        <option value="$PROJECT_DIR$/app/Connexion.php" />
         <option value="$PROJECT_DIR$/app/Utilisateur.php" />
         <option value="$PROJECT_DIR$/templates/articles/artiles.php" />
         <option value="$PROJECT_DIR$/templates/base.php" />
@@ -138,6 +136,7 @@
         <option value="$PROJECT_DIR$/templates/articles/articles.php" />
         <option value="$PROJECT_DIR$/templates/utilisateur/utilisateur.php" />
         <option value="$PROJECT_DIR$/app/table/UtilisateurTable.php" />
+        <option value="$PROJECT_DIR$/app/Connexion.php" />
         <option value="$PROJECT_DIR$/app/Paginator.php" />
       </list>
     </option>
@@ -227,16 +226,15 @@
       <workItem from="1598265492866" duration="6125000" />
       <workItem from="1598341010639" duration="5773000" />
       <workItem from="1598854996588" duration="2887000" />
-      <workItem from="1599198688642" duration="3396000" />
+      <workItem from="1599198688642" duration="6279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28380000" />
+    <option name="totallyTimeSpent" value="31263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16762178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -390,17 +388,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Paginator.php">
+    <entry file="file://$PROJECT_DIR$/app/Connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="289">
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Connexion.php">
+    <entry file="file://$PROJECT_DIR$/app/Paginator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="217">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>

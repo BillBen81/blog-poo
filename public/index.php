@@ -1,8 +1,24 @@
 <?php
 
 	//include_once "../app/Connexion.php";
+/*
+	$con = new mysqli("localhost","root", "", "db_devinbox");
+	// Check connection
+	if ($con->connect_error) {
+		die("Connection failed: " . $con->connect_error);
+	}
+	for ($i=1; $i<100; $i++){
+		$query = "insert into articles (art_code,art_lib,art_prix)
+					values (\"cod$i\",\"article$i\",100*$i)";
 
+		if ($con->query($query) === TRUE) {
+			echo "New record created successfully";
+		} else {
+			echo "Error: " . $query . "<br>" . $con->error;
+		}
+	}
 
+*/
 	if(isset($_GET["page"]))
 	{
 		$page = $_GET["page"];
